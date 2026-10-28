@@ -56,4 +56,4 @@ On Ubuntu: `sudo apt install -y build-essential flex`
 - Every file header says **what the program does in one line**.
 - SAMPLE RUN blocks are kept inside the file so you can diff against
   your own output without scrolling.
-- "SAS" marks these as the SAS (Sahithi) version of the code.
+- "SAS" marks these as the SAS (BITCH) version of the code.
