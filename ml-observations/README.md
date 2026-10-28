@@ -8,7 +8,7 @@ Python + scikit-learn lab programs, matched to the 10 lab questions.
 |---|---|---|
 | exp1.py | Q1 | Descriptive statistics (mean, mode, median, variance, std, quartiles, IQR) — statistics/math/numpy/scipy |
 | exp2.py | Q2 | Simple Linear Regression (Salary dataset) |
-| exp3.py | Q3 | Decision Tree — ID3 algorithm (entropy, Play Tennis dataset) |
+| exp3.py | Q3 | Decision Tree — ID3 (entropy) on Iris dataset |
 | exp4.py | Q5 | Naive Bayes (Gaussian NB, accuracy + new sample) |
 | exp5.py | Q6 | K-Nearest Neighbours on Iris (accuracy) |
 | exp6.py | Q7 | SVM (SVC) on Iris (accuracy) |
