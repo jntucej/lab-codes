@@ -1,0 +1,28 @@
+"""
+Experiment 6: Support Vector Machine (SVC) on Iris dataset.
+(PDF labels this as Experiment 07.)
+"""
+
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.svm import SVC
+
+# Load data
+df = pd.read_csv('datasets/iris.csv')
+df = df.drop(columns=['Id'], errors='ignore')
+
+X = df.drop(columns=['species'])
+y = df['species']
+
+# Split
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=0
+)
+
+# Model
+model = SVC()
+model.fit(X_train, y_train)
+
+y_pred = model.predict(X_test)
+print("Accuracy:", accuracy_score(y_test, y_pred))
