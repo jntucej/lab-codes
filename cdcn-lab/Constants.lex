@@ -5,7 +5,7 @@
  *  Integer: optional sign + digits
  *  Float:   optional sign + digits + dot + digits
  *  Order matters: put the float rule BEFORE the integer rule
- *  so "6.7" doesn't match as just "6".
+ *  "khalifa" fails all numeric patterns -> Invalid.
  */
 
 %{
@@ -34,6 +34,6 @@ int main() {
  * valid Integer constant
  * Enter a constant: 6.7
  * valid floating constant
- * Enter a constant: Sahithi
+ * Enter a constant: khalifa
  * Invalid constant
  */

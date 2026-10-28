@@ -5,6 +5,7 @@
  *  An identifier starts with a letter or underscore,
  *  followed by any number of letters/digits/underscores.
  *  The pattern [a-zA-Z_][a-zA-Z0-9_]* does that.
+ *  "khalifa" is valid; "12khalifa" is not (starts with a digit).
  */
 
 %{
@@ -28,8 +29,8 @@ int main() {
 
 /*
  * SAMPLE RUN:
- * Enter an Identifier: intuhit
+ * Enter an Identifier: khalifa
  * Valid Identifier
- * Enter an Identifier: 12sah
+ * Enter an Identifier: 12khalifa
  * Invalid Identifier
  */

@@ -70,7 +70,7 @@ flex Identifiers.lex
 gcc lex.yy.c -o identifiers
 ./identifiers
 ```
-**Sample Input:** `intuhit` → valid; `12sah` → invalid
+**Sample Input:** `khalifa` → valid; `12khalifa` → invalid
 
 ### 5ii. Constants (`Constants.lex`)
 
@@ -79,7 +79,7 @@ flex Constants.lex
 gcc lex.yy.c -o constants
 ./constants
 ```
-**Sample Input:** `46` → int; `6.7` → float; `Sahithi` → invalid
+**Sample Input:** `46` → int; `6.7` → float; `khalifa` → invalid
 
 ### 5iii. Comments (`Comments.lex`)
 
