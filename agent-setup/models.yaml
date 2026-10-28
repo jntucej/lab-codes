@@ -1,0 +1,24 @@
+# Model Registry — add to Hermes `models.yaml`
+#
+# Usage: paste the `providers:` + `models:` blocks into
+#   ~/.hermes/profiles/default/models.yaml
+#
+# Each entry: id, display name, provider, base_url, api_key (if separate).
+
+providers:
+  omniroute:
+    base_url: https://omniroute.ucej.in/v1
+    api_key: sk-6520980b9b390c95-1b09c8-9f6cd034
+    type: openai
+    models:
+      - id: agnes-3.0-flash
+        name: "Agnes 3.0 Flash"
+        provider: omniroute
+        context_length: 128000
+        max_output_tokens: 8192
+      - id: gemini-3.1-flash-lite
+        name: "Gemini 3.1 Flash Lite"
+        provider: omniroute
+        model_id: agy/gemini-3.1-flash-lite
+        context_length: 128000
+        max_output_tokens: 8192

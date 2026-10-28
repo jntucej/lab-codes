@@ -1,0 +1,9 @@
+{
+  "provider": "omniroute",
+  "base_url": "https://omniroute.ucej.in/v1",
+  "api_key": "sk-6520980b9b390c95-1b09c8-9f6cd034",
+  "models": [
+    "agnes/agnes-3.0-flash",
+    "agy/gemini-3.1-flash-lite"
+  ]
+}

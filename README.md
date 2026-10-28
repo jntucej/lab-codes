@@ -20,6 +20,13 @@ cdcn-lab/
   operators.lex         # 5iv  Operator classification
   count-words-lines.lex # 6   Count words & lines in a file
   input.txt             # sample input for #6
+
+agent-setup/
+  endpoints.json        # OMNIROUTE base_url + API key
+  models.yaml           # agnes + gemini model registry
+  hermes-install.md     # Hermes install (single command)
+  ollama-install.sh     # Ollama + Llama 3.2 one-click
+  run-models.sh         # run all local + cloud models
 ```
 
 ## Building
