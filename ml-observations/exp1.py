@@ -1,26 +1,42 @@
 """
-Experiment 1: Compute descriptive statistics
-(mean, mode, median, variance, standard deviation, quartile range)
+Experiment 1: Descriptive Statistics
+Q1: Mean, mode, median, variance, standard deviation, quartiles, IQR.
+Uses statistics, math, numpy and scipy (study of basic libraries).
 """
 
-import pandas as pd
+import statistics
+import math
+import numpy as np
 from scipy import stats
 
-data = [10, 10, 10, 12, 15, 18, 20, 25, 30, 35, 40, 45, 50, 55, 60]
-series = pd.Series(data)
+data = [10, 20, 30, 40, 50, 10, 10, 60]
 
-mean = series.mean()
-mode = series.mode()[0]
-median = series.median()
-variance = series.var()
-std_dev = series.std()
-q1 = series.quantile(0.25)
-q3 = series.quantile(0.75)
-quartile_range = q3 - q1
+# --- statistics module ---
+mean = statistics.mean(data)
+mode = statistics.mode(data)
+median = statistics.median(data)
+variance = statistics.variance(data)          # sample variance
+std_dev = statistics.stdev(data)              # sample std dev
 
-print("Mean:", mean)
-print("Mode:", mode)
-print("Median:", median)
-print("Variance:", variance)
-print("Standard Deviation:", std_dev)
-print("Quartile Range:", quartile_range)
+# --- numpy for quartiles ---
+q1 = np.percentile(data, 25)
+q2 = np.percentile(data, 50)
+q3 = np.percentile(data, 75)
+iqr = q3 - q1
+
+# --- math / scipy cross-checks ---
+p = len(data) - 1
+var_pop = sum((x - mean) ** 2 for x in data) / p
+chi2 = stats.chisquare([1, 1])               # demo scipy usage
+
+print(f"Mean:               {mean}")
+print(f"Mode:               {mode}")
+print(f"Median:             {median}")
+print(f"Variance (sample):  {variance}")
+print(f"Std Dev (sample):   {std_dev}")
+print(f"Quartile Q1:        {q1}")
+print(f"Quartile Q2 (med):  {q2}")
+print(f"Quartile Q3:        {q3}")
+print(f"IQR (Q3-Q1):        {iqr}")
+print(f"Variance (pop, math): {var_pop:.4f}")
+print(f"Scipy chisquare demo: {chi2.statistic:.4f}")
