@@ -25,7 +25,7 @@ gcc Bit-Stuffing.c -o bit_stuffing
 gcc Character-Stuffing.c -o char_stuffing
 ./char_stuffing
 ```
-**Sample Input:** Flag `A`, Escape `R`, String `SAHITHI`
+**Sample Input:** size `7`, Flag `A`, Escape `R`, String `KHALIFA`
 
 ### 2. CRC (`CRC.c`)
 

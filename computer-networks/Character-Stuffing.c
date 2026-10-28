@@ -7,8 +7,8 @@
  *  The receiver removes the ESCAPE byte to recover the original data.
  *
  * EXAMPLE:
- *  FLAG = 'A', ESCAPE = 'R', data = "SAHITHI"
- *  The 'A' inside the data gets an 'R' before it -> "SRAHITHI"
+ *  FLAG = 'A', ESCAPE = 'R', data = "KHALIFA"
+ *  'A' at index 2 and index 6 both get an 'R' in front -> "KHRALIFRA"
  *  The receiver sees 'R' and knows the next byte is real data.
  */
 
@@ -19,10 +19,16 @@ int main() {
     char a[50], b[100], res[50], f, e;
     int i, j = 0;
 
+    printf("Enter the size: ");
+    int n;
+    scanf("%d", &n);
+
     printf("Enter the flag character: ");
     scanf(" %c", &f);
+
     printf("Enter the escape character: ");
     scanf(" %c", &e);
+
     printf("Enter the string: ");
     scanf("%s", a);
 
@@ -53,11 +59,12 @@ int main() {
 
 /*
  * SAMPLE RUN:
+ * Enter the size: 7
  * Enter the flag character: A
  * Enter the escape character: R
- * Enter the string: SAHITHI
+ * Enter the string: KHALIFA
  * Sender side data after stuffing:
- * SRAHITHI
+ * KHRALIFRA
  * Receiver side data:
- * SAHITHI
+ * KHALIFA
  */
