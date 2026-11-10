@@ -30,6 +30,12 @@ agent-setup/
   hermes-install.md      # Hermes install (single command)
   ollama-install.sh      # Ollama + Llama 3.2 one-click
   run-models.sh          # run all local + cloud models
+
+cdcd/
+  # CD + CN combined lab set (10 programs)
+  lexer.l, calc.l, calc.y, count.l, rdp.c, parser.y
+  framing.c, crc.c, dijkstra.c, dvr.c
+  howto-run.md           # per-program build & run commands
 ```
 
 ## Building
@@ -48,8 +54,10 @@ flex Identifiers.lex
 gcc lex.yy.c -o identifiers
 ./identifiers
 ```
-On macOS: `brew install flex`
-On Ubuntu: `sudo apt install -y build-essential flex`
+On macOS: `brew install flex bison`
+On Ubuntu: `sudo apt install -y build-essential flex bison`
+
+For the combined cdcd/ set, see `cdcd/howto-run.md`.
 
 ## Conventions
 
