@@ -1,7 +1,7 @@
 # CD-CD Lab — How to Run Every Program
 
 Compiler Design + Computer Networks experiments.
-10 source files, organized by experiment.
+14 source files, organized by experiment.
 
 ## Setup (one-time)
 
@@ -164,5 +164,55 @@ Example (4 nodes):
 
 ## cdcd/
 
-Compiler Design + Computer Networks combined lab set (10 programs).
+## Compiler Design + Computer Networks combined lab set (14 programs).
 See `cdcd/howto-run.md` for build and run commands.
+
+## PDF Programs (added 2026-11-10)
+
+Four additional programs reconstructed from the lab PDF:
+
+| File | Description |
+|---|---|
+| `calc2.l` + `calc2.y` | 1 — Calculator using Lex & Yacc |
+| `expr.l` + `expr.y` | 2 — Recognise a valid arithmetic expression |
+| `var.l` + `var.y` | 3 — Recognise a valid variable name |
+| `bup.l` + `bup.y` | 4 — Bottom-up (shift-reduce) parser |
+
+### Build (one-time, run from `cdcd/`)
+
+```bash
+# 1. Calculator
+bison -d calc2.y
+flex calc2.l
+gcc lex.yy.c calc2.tab.c -o calc2 -lfl
+echo "2+3*4" | ./calc2       # → Result = 14
+
+# 2. Arithmetic expression recognizer
+bison -d expr.y
+sed 's/y.tab.h/expr.tab.h/' expr.l > expr.l.fixed
+flex expr.l.fixed
+gcc lex.yy.c expr.tab.c -o expr -lfl
+echo "(2+3)*4" | ./expr      # → valid arithmetic expression
+
+# 3. Variable name recognizer
+bison -d var.y
+sed 's/y.tab.h/var.tab.h/' var.l > var.l.fixed
+flex var.l.fixed
+gcc lex.yy.c var.tab.c -o var -lfl
+echo "abc123" | ./var        # → valid variable
+
+# 4. Bottom-up parser (reduction trace)
+bison -d bup.y
+sed 's/y.tab.h/bup.tab.h/' bup.l > bup.l.fixed
+flex bup.l.fixed
+gcc lex.yy.c bup.tab.c -o bup -lfl
+echo "2+3*4" | ./bup        # prints E->T, T->F, F->id, ...
+```
+
+### Notes
+- `yacc -d` and `bison -d` produce different `.tab.h` names (`y.tab.h` vs `prog.tab.h`).
+  The `sed` step fixes the include. Build **before** running `lex` on the `.l` file.
+- `var.l` has no `yylval` use (just token recognition), so `expr.l` and `var.l`
+  don't need `-lfl` strictly, but it's safe to link it.
+- Shift/reduce conflicts in `expr.y` and `calc2.y` are expected — the grammar is
+  ambiguous; they still parse valid strings correctly.

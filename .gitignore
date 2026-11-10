@@ -1,0 +1,10 @@
+# compiler build artifacts
+*.tab.c
+*.tab.h
+*.lex.yy.c
+lex.yy.c
+calc
+calc2
+expr
+var
+bup
