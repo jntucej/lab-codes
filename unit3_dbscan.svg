@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300">
+<rect width="560" height="300" fill="#fafbfc"/>
+<text x="280" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b" font-family="Arial">DBSCAN — Core, Border and Noise Points</text>
+<rect x="30" y="50" width="500" height="200" fill="#fff" stroke="#e2e8f0"/>
+<circle cx="150" cy="150" r="70" fill="none" stroke="#93c5fd" stroke-dasharray="5,4" stroke-width="1.5"/>
+<circle cx="150" cy="150" r="5" fill="#1e40af"/>
+<text x="150" y="143" text-anchor="middle" font-size="9" fill="#1e40af" font-family="Arial">core</text>
+<circle cx="210" cy="120" r="5" fill="#3b82f6"/><circle cx="190" cy="190" r="5" fill="#3b82f6"/>
+<circle cx="100" cy="180" r="5" fill="#3b82f6"/><circle cx="170" cy="100" r="5" fill="#3b82f6"/>
+<circle cx="230" cy="180" r="5" fill="#93c5fd" stroke="#3b82f6" stroke-width="1.5"/>
+<text x="248" y="184" font-size="9" fill="#64748b" font-family="Arial">border</text>
+<circle cx="380" cy="110" r="5" fill="#1e40af"/>
+<circle cx="360" cy="140" r="5" fill="#3b82f6"/><circle cx="400" cy="140" r="5" fill="#3b82f6"/>
+<circle cx="380" cy="170" r="5" fill="#3b82f6"/><circle cx="410" cy="160" r="5" fill="#3b82f6"/>
+<circle cx="380" cy="140" r="55" fill="none" stroke="#93c5fd" stroke-dasharray="5,4" stroke-width="1.5"/>
+<text x="380" y="133" text-anchor="middle" font-size="9" fill="#1e40af" font-family="Arial">core</text>
+<circle cx="480" cy="210" r="5" fill="#cbd5e1"/>
+<text x="498" y="214" font-size="9" fill="#64748b" font-family="Arial">noise</text>
+<text x="30" y="270" font-size="9" fill="#64748b" font-family="Arial">
+Core: ≥ MinPts in ε radius   |   Border: touches core but &lt; MinPts   |   Noise: neither</text>
+</svg>

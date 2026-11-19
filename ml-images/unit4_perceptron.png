@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head >
+
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        
+        
+
+        
+        
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/base_style-BxRs1iOp.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/base_style-D-jH62-1.js"></script>
+
+  <link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/article_style-B67IZFds.css" />
+<link  rel="stylesheet" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/style-D77LS1kY.css" />
+<script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/article_style-CTAd1LmM.js"></script>
+
+
+        
+            <link rel="apple-touch-icon"
+                  sizes="180x180"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/apple-touch-icon.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="48x48"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/favicon-48x48.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="32x32"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/favicon-32x32.png" />
+            <link rel="icon"
+                  type="image/png"
+                  sizes="16x16"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/favicon-16x16.png" />
+            <link rel="manifest" href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/site.webmanifest" />
+            <link rel="mask-icon"
+                  href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/safari-pinned-tab.svg"
+                  color="#0071bc" />
+            <meta name="msapplication-config"
+                  content="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/favicons/browserconfig.xml" />
+            <meta name="theme-color" content="#ffffff" />
+        
+
+        <title>
+            Figure - PMC
+        </title>
+
+        
+        
+  
+  <!-- Logging params: Pinger defaults -->
+<meta name="ncbi_app" content="cloudpmc-viewer" />
+<meta name="ncbi_db" content="pmc" />
+<meta name="ncbi_phid" content="E73CB7BDAFED6B7318B7BD000EE00C3D.m_1" />
+<meta name="ncbi_pinger_stat_url" content="https://pmc.ncbi.nlm.nih.gov/stat" />
+<!-- Logging params: Pinger custom -->
+<meta name="ncbi_pdid" content="art-figures" />
+  
+    <link rel="preconnect" href="https://www.google-analytics.com" />
+
+    
+        <link rel="preconnect" href="https://cdn.ncbi.nlm.nih.gov" />
+    
+
+    <!-- Include USWDS Init Script -->
+    <script src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/uswds-init.js"></script>
+
+
+    <meta name="ncbi_domain" content="infregen">
+<meta name="ncbi_type" content="figure">
+<meta name="ncbi_pcid" content="figure">
+<meta name="ncbi_feature" content="associated_data">
+<link rel="canonical" href="https://pmc.ncbi.nlm.nih.gov/articles/PMC6611022/">
+<meta name="robots" content="NOINDEX,NOFOLLOW,NOARCHIVE">
+<meta name="description" content="Induced pluripotent stem cells (iPSC) are one the most prominent innovations of medical research in the last few decades. iPSCs can be easily generated from human somatic cells and have several potential uses in regenerative medicine, disease ...">
+<meta name="og:title" content="The application of convolutional neural network to stem cell biology">
+<meta name="og:type" content="article">
+<meta name="og:site_name" content="PubMed Central (PMC)">
+<meta name="og:description" content="Induced pluripotent stem cells (iPSC) are one the most prominent innovations of medical research in the last few decades. iPSCs can be easily generated from human somatic cells and have several potential uses in regenerative medicine, disease ...">
+<meta name="og:url" content="https://pmc.ncbi.nlm.nih.gov/articles/PMC6611022/">
+<meta name="og:image" content="https://cdn.ncbi.nlm.nih.gov/pmc/cms/images/pmc-card-share.jpg?_=0">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@ncbi">
+    
+
+    </head>
+    <body >
+        
+    <a class="usa-skipnav " href="#main-content">
+      Skip to main content
+    </a>
+
+
+        
+            
+
+<section class="usa-banner " aria-label="Official website of the United States government" >
+    <div class="usa-accordion">
+        <header class="usa-banner__header">
+            <div class="usa-banner__inner">
+                <div class="grid-col-auto">
+                    <img aria-hidden="true"
+                         class="usa-banner__header-flag"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/us_flag.svg"
+                         alt="" />
+                </div>
+
+                <div class="grid-col-fill tablet:grid-col-auto" aria-hidden="true">
+                    <p class="usa-banner__header-text">
+                        An official website of the United States government
+                    </p>
+                    <span class="usa-banner__header-action">Here's how you know</span>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <button
+            type="button"
+        
+    
+    class="usa-accordion__button usa-banner__button
+           
+
+           
+               
+               
+               
+               
+            
+
+           
+           
+           
+           "
+    aria-expanded="false"
+    aria-controls="gov-banner-default"
+    
+    data-testid="storybook-django-banner"
+    
+    >
+    
+        
+
+        
+                    <span class="usa-banner__button-text">Here's how you know</span>
+                
+
+        
+    
+        
+            </button>
+        
+
+
+            </div>
+        </header>
+
+        <div class="usa-banner__content usa-accordion__content"
+             id="gov-banner-default"
+             hidden>
+            <div class="grid-row grid-gap-lg">
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/icon-dot-gov.svg"
+                         alt=""
+                         aria-hidden="true" />
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Official websites use .gov</strong>
+                            <br />
+                            A
+                            <strong>.gov</strong> website belongs to an official
+                            government organization in the United States.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="usa-banner__guidance tablet:grid-col-6">
+                    <img class="usa-banner__icon usa-media-block__img"
+                         src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/img/icon-https.svg"
+                         alt=""
+                         aria-hidden="true" />
+
+                    <div class="usa-media-block__body">
+                        <p>
+                            <strong>Secure .gov websites use HTTPS</strong>
+                            <br />
+                            A <strong>lock</strong> (
+                            <span class="icon-lock">
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                     width="52"
+                                     height="64"
+                                     viewBox="0 0 52 64"
+                                     class="usa-banner__lock-image"
+                                     role="graphics-symbol"
+                                     aria-labelledby="banner-lock-description"
+                                     focusable="false">
+                                    <title id="banner-lock-title">Lock</title>
+                                    <desc id="banner-lock-description">
+                                    Locked padlock icon
+                                    </desc>
+                                    <path fill="#000000"
+                                          fill-rule="evenodd"
+                                          d="M26 0c10.493 0 19 8.507 19 19v9h3a4 4 0 0 1 4 4v28a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V32a4 4 0 0 1 4-4h3v-9C7 8.507 15.507 0 26 0zm0 8c-5.979 0-10.843 4.77-10.996 10.712L15 19v9h22v-9c0-6.075-4.925-11-11-11z" />
+                                </svg>
+</span>) or <strong>https://</strong> means you've safely
+                                connected to the .gov website. Share sensitive
+                                information only on official, secure websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        
+
+        
+
+
+        
+        
+
+       
+  <div class="usa-overlay"></div>
+
+  <div class="usa-section">
+
+    
+
+      <div class="grid-container">
+        <div class="grid-row grid-gap">
+
+          <!-- Main content -->
+          <main
+            id="main-content"
+            class="usa-layout-docs__main usa-layout-docs desktop:grid-col-12 pmc-layout pmc-prose"
+          >
+            
+              <article class="object-view" lang="en"><div class="ameta p font-secondary font-xs">
+<section class="pmc-layout__citation font-secondary font-xs"><div><a href="../../" class="usa-link">View full-text article in PMC</a></div>
+<div>
+<div class="display-inline-block"><button type="button" class="cursor-pointer text-no-underline bg-transparent border-0 padding-0 text-left margin-0 text-normal text-primary" aria-controls="journal_context_menu">Inflamm Regen</button></div>. 2019 Jul 5;39:14. doi: <a href="https://doi.org/10.1186/s41232-019-0103-3" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">10.1186/s41232-019-0103-3</a>
+</div>
+<nav id="journal_context_menu" hidden="hidden"><ul class="menu-list font-family-ui" role="menu">
+<li role="presentation"><a href='https://pmc.ncbi.nlm.nih.gov/search/?term="Inflamm%20Regen"[jour]' class="usa-link" role="menuitem">Search in PMC</a></li>
+<li role="presentation"><a href='https://pubmed.ncbi.nlm.nih.gov/?term="Inflamm%20Regen"[jour]' lang="en" class="usa-link" role="menuitem">Search in PubMed</a></li>
+<li role="presentation"><a href='https://www.ncbi.nlm.nih.gov/nlmcatalog?term="Inflamm%20Regen"[Title%20Abbreviation]' class="usa-link" role="menuitem">View in NLM Catalog</a></li>
+<li role="presentation"><a href='?term="Inflamm%20Regen"[jour]' class="usa-link" role="menuitem" data-add-to-search="true">Add to search</a></li>
+</ul></nav></section><ul class="d-buttons inline-list"><li><button class="d-button" aria-controls="clp_a" aria-expanded="false">Copyright and License information</button></li></ul>
+<div class="d-panels font-secondary-light"><div id="clp_a" class="d-panel p" style="display: none">
+<div>© The Author(s) 2019</div>
+<p><strong>Open Access</strong>This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (<a href="http://creativecommons.org/licenses/by/4.0/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The Creative Commons Public Domain Dedication waiver (<a href="http://creativecommons.org/publicdomain/zero/1.0/" class="usa-link usa-link--external" data-ga-action="click_feat_suppl" target="_blank" rel="noopener noreferrer">http://creativecommons.org/publicdomain/zero/1.0/</a>) applies to the data made available in this article, unless otherwise stated.</p>
+<div class="p"><a href="/about/copyright/" class="usa-link">PMC Copyright notice</a></div>
+</div></div>
+</div>
+<div class="object margin-top-0-imp"><figure class="fig xbox font-sm" id="Fig1"><h1>Fig. 1.</h1>
+<p class="img-box line-height-none margin-x-neg-2 tablet:margin-x-0 text-center"><a class="tileshop" target="_blank" href="https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&amp;p=PMC3&amp;id=6611022_41232_2019_103_Fig1_HTML.jpg"><img class="graphic zoom-in" src="https://cdn.ncbi.nlm.nih.gov/pmc/blobs/88d0/6611022/9dc1654c0402/41232_2019_103_Fig1_HTML.jpg" loading="lazy" id="MO1" height="312" width="709" alt="Fig. 1"></a></p>
+<figcaption><p><strong>a</strong> Structure of simple perceptron. <em>x</em><sub>1</sub>, <em>x</em><sub>2</sub>, <em>x</em><sub>3</sub> … <em>x</em>i represent the output signals of each upstream neuron and each signal is multiplied by each weight: <em>w</em><sub>1</sub>, <em>w</em><sub>2</sub>, <em>w</em><sub>3</sub> …<em>w</em>i. Multiplied signals, which comprise the input signal, are summed and calculated by activation function. <em>y</em> is the output of the perceptron. <strong>b</strong> Neural network consisting of multiple layers of perceptrons converts input signal to final output signal, which is called the predictive value. Predictive value is compared with the objective value, and error is calculated by loss function. Each neuron signal weight is adjusted to minimize the error with the optimizer method, which is based on the backward propagation method</p></figcaption></figure></div></article>
+
+            
+
+          </main>
+
+          
+
+        </div>
+      </div>
+
+    
+
+  </div>
+
+
+        
+
+
+        
+        
+    
+  <script  type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/pinger/pinger.js"> </script>
+
+
+    
+
+
+
+        
+    
+    <div id="icon-container" style="display: none;"></div>
+    
+    
+        
+    <script type="application/javascript">
+    window.ncbi = window.ncbi || {};
+    window.ncbi.pmc = window.ncbi.pmc || {};
+    window.ncbi.pmc.options = {
+        logLevel: 'INFO',
+        
+        staticEndpoint: 'https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/',
+        
+        citeCookieName: 'pmc-cf',
+    };
+</script>
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/base-Cp_Il6gk.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+    <script type="text/javascript" src="https://cdn.ncbi.nlm.nih.gov/core/jquery/jquery-3.6.0.min.js">&#xA0;</script>
+    <script type="text/javascript">
+        jQuery.getScript("https://cdn.ncbi.nlm.nih.gov/core/alerts/alerts.js", function () {
+            galert(['div.nav_and_browser', 'div.header', '#universal_header', '.usa-banner', 'body > *:nth-child(1)'])
+        });
+    </script>
+
+    <script type="module" crossorigin="" src="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/article-D47MIn9n.js"></script>
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/vendor-Co8Vdmw2.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/index-DXSA0fsx.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+<link href="https://cdn.ncbi.nlm.nih.gov/pmc/pd-medc-pmc-cloudpmc-viewer/production/9b1d9d87/var/data/static/assets/secure-cookie-Br6x5jtB.js" type="text/javascript" crossorigin="anonymous" rel="modulepreload" as="script" />
+    
+
+    </body>
+</html>

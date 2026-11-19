@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="250" viewBox="0 0 640 250"><rect width="640" height="250" fill="#fafbfc"/><text x="320" y="24" text-anchor="middle" font-size="13" font-weight="bold" fill="#1e293b" font-family="Arial">Backpropagation (Chain Rule)</text>
+<rect x="20"  y="70" width="100" height="40" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="70"  y="95" text-anchor="middle" font-size="10" fill="#1e293b" font-family="Arial">Input</text>
+<rect x="150" y="70" width="100" height="40" rx="6" fill="#fde68a" stroke="#92400e" stroke-width="1.5"/>
+<text x="200" y="95" text-anchor="middle" font-size="10" fill="#1e293b" font-family="Arial">Hidden L1</text>
+<rect x="280" y="70" width="100" height="40" rx="6" fill="#fde68a" stroke="#92400e" stroke-width="1.5"/>
+<text x="330" y="95" text-anchor="middle" font-size="10" fill="#1e293b" font-family="Arial">Hidden L2</text>
+<rect x="410" y="70" width="100" height="40" rx="6" fill="#dbeafe" stroke="#2563eb" stroke-width="1.5"/>
+<text x="460" y="95" text-anchor="middle" font-size="10" fill="#1e293b" font-family="Arial">Output</text>
+<rect x="540" y="70" width="80"  height="40" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="1.5"/>
+<text x="580" y="95" text-anchor="middle" font-size="10" fill="#dc2626" font-family="Arial">Loss</text>
+<line x1="120" y1="90" x2="148" y2="90" stroke="#475569" stroke-width="2"/>
+<polygon points="150,90 143,86 143,94" fill="#475569"/>
+<line x1="250" y1="90" x2="278" y2="90" stroke="#475569" stroke-width="2"/>
+<polygon points="280,90 273,86 273,94" fill="#475569"/>
+<line x1="380" y1="90" x2="408" y2="90" stroke="#475569" stroke-width="2"/>
+<polygon points="410,90 403,86 403,94" fill="#475569"/>
+<line x1="510" y1="90" x2="538" y2="90" stroke="#475569" stroke-width="2"/>
+<polygon points="540,90 533,86 533,94" fill="#475569"/>
+<text x="300" y="135" font-size="9" fill="#475569" font-family="Arial">FORWARD PASS →</text>
+<text x="300" y="170" font-size="10" font-weight="bold" fill="#dc2626" text-anchor="middle" font-family="Arial">BACKWARD PASS ←</text>
+<line x1="540" y1="110" x2="540" y2="155" stroke="#dc2626" stroke-width="2"/>
+<line x1="540" y1="155" x2="500" y2="155" stroke="#dc2626" stroke-width="2"/>
+<polygon points="495,155 502,151 502,159" fill="#dc2626"/>
+<line x1="500" y1="155" x2="410" y2="155" stroke="#dc2626" stroke-width="2"/>
+<polygon points="405,155 412,151 412,159" fill="#dc2626"/>
+<line x1="410" y1="155" x2="280" y2="155" stroke="#dc2626" stroke-width="2"/>
+<polygon points="275,155 282,151 282,159" fill="#dc2626"/>
+<line x1="280" y1="155" x2="150" y2="155" stroke="#dc2626" stroke-width="2"/>
+<polygon points="145,155 152,151 152,159" fill="#dc2626"/>
+<text x="540" y="195" font-size="9" fill="#dc2626" text-anchor="middle" font-family="Arial">dL/dW → update weights</text>
+<text x="300" y="225" font-size="9" fill="#64748b" text-anchor="middle" font-family="Arial">New W = Old W − (learning rate × gradient)   |   Repeat for N epochs</text>
+</svg>
